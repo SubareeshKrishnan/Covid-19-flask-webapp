@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="container-fluid mt-5 d-flex justify-content-center">
+    <div class="jumbotron" style='width: 75%;'>
+      <div class="container" style='width:50%;'>
+        <h1 class='text-center'>Realtime Covid-19 Cases</h1>
+        <form action="{{ url_for('cases') }}" method="post">
+          <div class="form-group mt-4">
+            <label for="inputCountry">Country name</label>
+            <input type="text" class="form-control" id="inputCountry" name='country'>
+            <div class="d-flex justify-content-center">
+              <button type="submit" style='width:90px; border: 1px solid lightblue;' class="btn btn-dark mt-3">Show</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+{% endblock %}

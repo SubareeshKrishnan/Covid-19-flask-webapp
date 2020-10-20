@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="container-fluid mt-5 d-flex justify-content-center">
+    <div class="jumbotron text-center" style='width: 75%;'>
+      <h1 class='display-2'>{{ state }}</h1>
+      <hr style='width:50%;'>
+      <h2>Cases <br> <span class='display-4'>{{ confirmed }}</span></h2>
+      <hr style='width:50%;'>
+      <h2>Deaths <br> <span class='display-4'>{{ deaths }}</span></h2>
+      <hr style='width:50%;'>
+      <h2>Active <br> <span class='display-4'>{{ active }}</span></h2>
+      <hr style='width:50%;'>
+      <h2>Recovered <br> <span class='display-4'>{{ recovered }}</span></h2>
+    </div>
+  </div>
+{% endblock %}

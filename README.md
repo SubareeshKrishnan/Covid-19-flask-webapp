@@ -8,7 +8,7 @@ Realtime Covid-19 web app made with Python and Flask.
 * [License](#license)
 
 ## General info
-Realtime Covid-19 web app made with Python and Flask. Shows total cases in each countries in the world and each states in Inida.
+Realtime Covid-19 web app made with Python and Flask. Shows total cases in each countries in the world and each states in India.
 
 ## Technologies
 Project is created with:
